@@ -1,0 +1,1944 @@
+{
+    "intenciones": [
+        {
+            "tag": "BuscarPorModuloTip3M",
+            "patrones": [
+                "3 metros",
+                "3 m",
+                "3m",
+                "solo de 3 metros",
+                "solo de 3 m",
+                "solo de 3m",
+                "igual a 3 m",
+                "igual a 3m",
+                "= 3m",
+                "= 3 m",
+                "tres metros",
+                "tres m",
+                "igual a tres m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip3Mmayores",
+            "patrones": [
+                "mayor 3 metros",
+                "mayor 3 m",
+                "mayores 3 metros",
+                "mayores 3 m",
+                "mayor 3m",
+                "mayor a 3 m",
+                "mayor a 3m",
+                "mayores 3m",
+                "mayores a 3 m",
+                "mayores a 3m",
+                "> 3m",
+                "> 3 m",
+                "> tres m",
+                "mayor tres metros",
+                "mayor a tres metros",
+                "mayores tres metros",
+                "mayores a tres metros",
+                "mayor tres m",
+                "mayores tres m",
+                "mayor a tres m",
+                "mayores a tres m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip3Mmenores",
+            "patrones": [
+                "menor 3 metros",
+                "menor 3 m",
+                "menores 3 metros",
+                "menores 3 m",
+                "menor 3m",
+                "menor a 3 m",
+                "menor a 3m",
+                "menores 3m",
+                "menores a 3 m",
+                "menores a 3m",
+                "< 3m",
+                "< a 3m",
+                "< tres m",
+                "menor tres metros",
+                "menor a tres metros",
+                "menores tres metros",
+                "menores a tres metros",
+                "menor tres m",
+                "menores tres m",
+                "menor a tres m",
+                "menores a tres m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip3.5M",
+            "patrones": [
+                "3.5 metros",
+                "3.5 m",
+                "3.5m",
+                "solo de 3.5 metros",
+                "solo de 3.5 m",
+                "solo de 3.5m",
+                "igual a 3.5 m",
+                "igual a 3.5m",
+                "= 3.5m",
+                "= 3.5 m",
+                "= 3.5 metros",
+                "tres punto cinco metros",
+                "tres punto cinco m",
+                "tres coma cinco metros",
+                "tres coma cinco m",
+                "igual a tres punto cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip3.5Mmayores",
+            "patrones": [
+                "mayor 3 metros",
+                "mayor 3 m",
+                "mayores 3 metros",
+                "mayores 3 m",
+                "mayor 3m",
+                "mayor a 3 m",
+                "mayor a 3m",
+                "mayores 3m",
+                "mayores a 3 m",
+                "mayores a 3m",
+                "> 3m",
+                "> 3 m",
+                "> tres m",
+                "mayor tres punto cinco metros",
+                "mayor a tres punto cinco metros",
+                "mayores tres punto cinco metros",
+                "mayores a tres punto cinco metros",
+                "mayor tres punto cinco m",
+                "mayores tres punto cinco m",
+                "mayores tres coma cinco m",
+                "mayores tres coma cinco metros",
+                "mayor a tres coma cinco m",
+                "mayor a tres coma cinco metros",
+                "mayor a tres punto cinco m",
+                "mayores a tres punto cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip3.5Mmenores",
+            "patrones": [
+                "menor 3.5 metros",
+                "menor 3.5 m",
+                "menores 3.5 metros",
+                "menores 3.5 m",
+                "menor 3.5m",
+                "menor a 3.5 m",
+                "menor a 3.5m",
+                "menores 3.5m",
+                "menores a 3.5 m",
+                "menores a 3.5m",
+                "< 3.5m",
+                "< a 3.5m",
+                "< tres m",
+                "menor tres punto cinco metros",
+                "menor a tres punto cinco metros",
+                "menores tres punto cinco metros",
+                "menores a tres punto cinco metros",
+                "menor tres punto cinco m",
+                "menores a tres coma cinco metros",
+                "menores a tres coma cinco m",
+                "menor tres coma cinco metros",
+                "menor tres coma cinco m",
+                "menores tres punto cinco m",
+                "menor a tres punto cinco m",
+                "menores a tres punto cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip4M",
+            "patrones": [
+                "4 metros",
+                "4 m",
+                "4m",
+                "solo de 4 metros",
+                "solo de 4 m",
+                "solo de 4m",
+                "igual a 4 m",
+                "igual a 4m",
+                "= 4m",
+                "= 4 m",
+                "cuatro metros",
+                "cuatro m",
+                "igual a cuatro m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip4Mmayor",
+            "patrones": [
+                "mayor 4 metros",
+                "mayor 4 m",
+                "mayores 4 metros",
+                "mayores 4 m",
+                "mayor 4m",
+                "mayor a 4 m",
+                "mayor a 4m",
+                "mayores 4m",
+                "mayores a 4 m",
+                "mayores a 4m",
+                "> 4m",
+                "> 4 m",
+                "> cuatro m",
+                "mayor cuatro metros",
+                "mayor a cuatro metros",
+                "mayores cuatro metros",
+                "mayores a cuatro metros",
+                "mayor cuatro m",
+                "mayores cuatro m",
+                "mayor a cuatro m",
+                "mayores a cuatro m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip4Mmenor",
+            "patrones": [
+                "menor 4 metros",
+                "menor 4 m",
+                "menores 4 metros",
+                "menores 4 m",
+                "menor 4m",
+                "menor a 4 m",
+                "menor a 4m",
+                "menores 4m",
+                "menores a 4 m",
+                "menores a 4m",
+                "< 4m",
+                "< a 4m",
+                "< cuatro m",
+                "menor cuatro metros",
+                "menor a cuatro metros",
+                "menores cuatro metros",
+                "menores a cuatro metros",
+                "menor cuatro m",
+                "menores cuatro m",
+                "menor a cuatro m",
+                "menores a cuatro m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip5M",
+            "patrones": [
+                "5 metros",
+                "5 m",
+                "5m",
+                "solo de 5 metros",
+                "solo de 5 m",
+                "solo de 5m",
+                "igual a 5 m",
+                "igual a 5m",
+                "= 5m",
+                "= 5 m",
+                "cinco metros",
+                "cinco m",
+                "igual a cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip5Mmayores",
+            "patrones": [
+                "mayor 5 metros",
+                "mayor 5 m",
+                "mayores 5 metros",
+                "mayores 5 m",
+                "mayor 5m",
+                "mayor a 5 m",
+                "mayor a 5m",
+                "mayores 5m",
+                "mayores a 5 m",
+                "mayores a 5m",
+                "> 5m",
+                "> 5 m",
+                "> cinco m",
+                "mayor cinco metros",
+                "mayor a cinco metros",
+                "mayores cinco metros",
+                "mayores a cinco metros",
+                "mayor cinco m",
+                "mayores cinco m",
+                "mayor a cinco m",
+                "mayores a cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip5Mmenores",
+            "patrones": [
+                "menor 5 metros",
+                "menor 5 m",
+                "menores 5 metros",
+                "menores 5 m",
+                "menor 5m",
+                "menor a 5 m",
+                "menor a 5m",
+                "menores 5m",
+                "menores a 5 m",
+                "menores a 5m",
+                "< 5m",
+                "< a 5m",
+                "< cinco m",
+                "menor cinco metros",
+                "menor a cinco metros",
+                "menores cinco metros",
+                "menores a cinco metros",
+                "menor cinco m",
+                "menores cinco m",
+                "menor a cinco m",
+                "menores a cinco m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip6M",
+            "patrones": [
+                "6 metros",
+                "6 m",
+                "6m",
+                "solo de 6 metros",
+                "solo de 6 m",
+                "solo de 6m",
+                "igual a 6 m",
+                "igual a 6m",
+                "= 6m",
+                "= 6 m",
+                "seis metros",
+                "seis m",
+                "igual a seis m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip6Mmayores",
+            "patrones": [
+                "mayor 6 metros",
+                "mayor 6 m",
+                "mayores 6 metros",
+                "mayores 6 m",
+                "mayor 6m",
+                "mayor a 6 m",
+                "mayor a 6m",
+                "mayores 6m",
+                "mayores a 6 m",
+                "mayores a 6m",
+                "> 6m",
+                "> 6 m",
+                "> seis m",
+                "mayor seis metros",
+                "mayor a seis metros",
+                "mayores seis metros",
+                "mayores a seis metros",
+                "mayor seis m",
+                "mayores seis m",
+                "mayor a seis m",
+                "mayores a seis m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip6Mmenores",
+            "patrones": [
+                "menor 6 metros",
+                "menor 6 m",
+                "menores 6 metros",
+                "menores 6 m",
+                "menor 6m",
+                "menor a 6 m",
+                "menor a 6m",
+                "menores 6m",
+                "menores a 6 m",
+                "menores a 6m",
+                "< 6m",
+                "< a 6m",
+                "< seis m",
+                "menor seis metros",
+                "menor a seis metros",
+                "menores seis metros",
+                "menores a seis metros",
+                "menor seis m",
+                "menores seis m",
+                "menor a seis m",
+                "menores a seis m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModuloTip7M",
+            "patrones": [
+                "7 metros",
+                "7 m",
+                "7m",
+                "solo de 7 metros",
+                "solo de 7 m",
+                "solo de 7m",
+                "igual a 7 m",
+                "igual a 7m",
+                "= 7m",
+                "= 7 m",
+                "siete metros",
+                "siete m",
+                "igual a siete m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarModuloMayor7Metros",
+            "patrones": [
+                "mayor 7 metros",
+                "mayor 7 m",
+                "mayores 7 metros",
+                "mayores 7 m",
+                "mayor 7m",
+                "mayor a 7 m",
+                "mayor a 7m",
+                "mayores 7m",
+                "mayores a 7 m",
+                "mayores a 7m",
+                "> 7m",
+                "> 7 m",
+                "> siete m",
+                "mayor siete metros",
+                "mayor a siete metros",
+                "mayores siete metros",
+                "mayores a siete metros",
+                "mayor siete m",
+                "mayores siete m",
+                "mayor a siete m",
+                "mayores a siete m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": ">"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarModuloMenor7Metros",
+            "patrones": [
+                "menor 7 metros",
+                "menor 7 m",
+                "menores 7 metros",
+                "menores 7 m",
+                "menor 7m",
+                "menor a 7 m",
+                "menor a 7m",
+                "menores 7m",
+                "menores a 7 m",
+                "menores a 7m",
+                "< 7m",
+                "< a 7m",
+                "< siete m",
+                "menor siete metros",
+                "menor a siete metros",
+                "menores siete metros",
+                "menores a siete metros",
+                "menor siete m",
+                "menores siete m",
+                "menor a siete m",
+                "menores a siete m"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "<"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorDistritoCastilla",
+            "patrones": [
+                "solo de castilla",
+                "en castilla",
+                "castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "solo de veintiseisdeoctubre",
+                "en veintiseisdeoctubre",
+                "veintiseisdeoctubre",
+                "solo de veintiseis de octubre",
+                "en veintiseis de octubre",
+                "veintiseis de octubre",
+                "solo de 26 de octubre",
+                "en 26 de octubre",
+                "26 de octubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorDistritoTambogrande",
+            "patrones": [
+                "solo de tambogrande",
+                "en tambogrande",
+                "tambogrande",
+                "solo de tambo grande",
+                "en tambo grande",
+                "tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorDistritoPiura",
+            "patrones": [
+                "solo de piura",
+                "en piura",
+                "piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3MYDistritoCastilla",
+            "patrones": [
+                "3 metros castilla",
+                "3 m castilla",
+                "3m castilla",
+                "solo de 3 metros castilla",
+                "solo de 3 m castilla",
+                "solo de 3m castilla",
+                "igual a 3 m castilla",
+                "igual a 3m castilla",
+                "= 3m castilla",
+                "= 3 m castilla",
+                "tres metros castilla",
+                "tres m castilla",
+                "igual a tres m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "3 metros veintiseis de octubre",
+                "3 m veintiseis de octubre",
+                "3m veintiseis de octubre",
+                "solo de 3 metros veintiseis de octubre",
+                "solo de 3 m veintiseis de octubre",
+                "solo de 3m veintiseis de octubre",
+                "igual a 3 m veintiseis de octubre",
+                "igual a 3m veintiseis de octubre",
+                "= 3m veintiseis de octubre",
+                "= 3 m veintiseis de octubre",
+                "tres metros veintiseis de octubre",
+                "tres m veintiseis de octubre",
+                "igual a tres m veintiseis de octubre",
+                "3 metros 26 de octubre",
+                "3 m 26 de octubre",
+                "3m 26 de octubre",
+                "solo de 3 metros 26 de octubre",
+                "solo de 3 m 26 de octubre",
+                "solo de 3m 26 de octubre",
+                "igual a 3 m 26 de octubre",
+                "igual a 3m 26 de octubre",
+                "= 3m 26 de octubre",
+                "= 3 m 26 de octubre",
+                "tres metros 26 de octubre",
+                "tres m 26 de octubre",
+                "igual a tres m 26 de octubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3MYDistritoTambogrande",
+            "patrones": [
+                "3 metros tambogrande",
+                "3 m tambogrande",
+                "3m tambogrande",
+                "solo de 3 metros tambogrande",
+                "solo de 3 m tambogrande",
+                "solo de 3m tambogrande",
+                "igual a 3 m tambogrande",
+                "igual a 3m tambogrande",
+                "= 3m tambogrande",
+                "= 3 m tambogrande",
+                "tres metros tambogrande",
+                "tres m tambogrande",
+                "igual a tres m tambogrande",
+                "3 metros tambo grande",
+                "3 m tambo grande",
+                "3m tambo grande",
+                "solo de 3 metros tambo grande",
+                "solo de 3 m tambo grande",
+                "solo de 3m tambo grande",
+                "igual a 3 m tambo grande",
+                "igual a 3m tambo grande",
+                "= 3m tambo grande",
+                "= 3 m tambo grande",
+                "tres metros tambo grande",
+                "tres m tambo grande",
+                "igual a tres m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3MYDistritoPiura",
+            "patrones": [
+                "3 metros piura",
+                "3 m piura",
+                "3m piura",
+                "solo de 3 metros piura",
+                "solo de 3 m piura",
+                "solo de 3m piura",
+                "igual a 3 m piura",
+                "igual a 3m piura",
+                "= 3m piura",
+                "= 3 m piura",
+                "tres metros piura",
+                "tres m piura",
+                "igual a tres m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3.5MYDistritoCastilla",
+            "patrones": [
+                "3.5 metros castilla",
+                "3.5 m castilla",
+                "3.5m castilla",
+                "solo de 3.5 metros castilla",
+                "solo de 3.5 m castilla",
+                "solo de 3.5m castilla",
+                "igual a 3.5 m castilla",
+                "igual a 3.5m castilla",
+                "= 3.5m castilla",
+                "= 3.5 m castilla",
+                "tres punto cinco metros castilla",
+                "tres punto cinco m castilla",
+                "tres coma cinco metros castilla",
+                "tres coma cinco m castilla",
+                "igual a tres m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3.5MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "3.5 metros veintiseis de octubre",
+                "3.5 m veintiseis de octubre",
+                "3.5m veintiseis de octubre",
+                "solo de 3.5 metros veintiseis de octubre",
+                "solo de 3.5 m veintiseis de octubre",
+                "solo de 3.5m veintiseis de octubre",
+                "igual a 3.5 m veintiseis de octubre",
+                "igual a 3.5m veintiseis de octubre",
+                "= 3.5m veintiseis de octubre",
+                "= 3.5 m veintiseis de octubre",
+                "tres punto cinco metros veintiseis de octubre",
+                "tres punto cinco m veintiseis de octubre",
+                "tres coma cinco metros veintiseis de octubre",
+                "tres coma cinco m veintiseis de octubre",
+                "igual a tres m veintiseis de octubre",
+                "3.5 metros veintiseisdeoctubre",
+                "3.5 m veintiseisdeoctubre",
+                "3.5m veintiseisdeoctubre",
+                "solo de 3.5 metros veintiseisdeoctubre",
+                "solo de 3.5 m veintiseisdeoctubre",
+                "solo de 3.5m veintiseisdeoctubre",
+                "igual a 3.5 m veintiseisdeoctubre",
+                "igual a 3.5m veintiseisdeoctubre",
+                "= 3.5m veintiseisdeoctubre",
+                "= 3.5 m veintiseisdeoctubre",
+                "tres punto cinco metros veintiseisdeoctubre",
+                "tres punto cinco m veintiseisdeoctubre",
+                "tres coma cinco metros veintiseisdeoctubre",
+                "tres coma cinco m veintiseisdeoctubre",
+                "igual a tres m veintiseisdeoctubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3.5MYDistritoTambogrande",
+            "patrones": [
+                "3.5 metros tambogrande",
+                "3.5 m tambogrande",
+                "3.5m tambogrande",
+                "solo de 3.5 metros tambogrande",
+                "solo de 3.5 m tambogrande",
+                "solo de 3.5m tambogrande",
+                "igual a 3.5 m tambogrande",
+                "igual a 3.5m tambogrande",
+                "= 3.5m tambogrande",
+                "= 3.5 m tambogrande",
+                "tres punto cinco metros tambogrande",
+                "tres punto cinco m tambogrande",
+                "tres coma cinco metros tambogrande",
+                "tres coma cinco m tambogrande",
+                "igual a tres m tambogrande",
+                "3.5 metros tambo grande",
+                "3.5 m tambo grande",
+                "3.5m tambo grande",
+                "solo de 3.5 metros tambo grande",
+                "solo de 3.5 m tambo grande",
+                "solo de 3.5m tambo grande",
+                "igual a 3.5 m tambo grande",
+                "igual a 3.5m tambo grande",
+                "= 3.5m tambo grande",
+                "= 3.5 m tambo grande",
+                "tres punto cinco metros tambo grande",
+                "tres punto cinco m tambo grande",
+                "tres coma cinco metros tambo grande",
+                "tres coma cinco m tambo grande",
+                "igual a tres m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo3.5MYDistritoPiura",
+            "patrones": [
+                "3.5 metros piura",
+                "3.5 m piura",
+                "3.5m piura",
+                "solo de 3.5 metros piura",
+                "solo de 3.5 m piura",
+                "solo de 3.5m piura",
+                "igual a 3.5 m piura",
+                "igual a 3.5m piura",
+                "= 3.5m piura",
+                "= 3.5 m piura",
+                "tres punto cinco metros piura",
+                "tres punto cinco m piura",
+                "tres coma cinco metros piura",
+                "tres coma cinco m piura",
+                "igual a tres m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "3.5 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo4MYDistritoCastilla",
+            "patrones": [
+                "4 metros castilla",
+                "4 m castilla",
+                "4m castilla",
+                "solo de 4 metros castilla",
+                "solo de 4 m castilla",
+                "solo de 4m castilla",
+                "igual a 4 m castilla",
+                "igual a 4m castilla",
+                "= 4m castilla",
+                "= 4 m castilla",
+                "cuatro metros castilla",
+                "cuatro m castilla",
+                "igual a cuatro m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo4MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "4 metros veintiseis de octubre",
+                "4 m veintiseis de octubre",
+                "4m veintiseis de octubre",
+                "solo de 4 metros veintiseis de octubre",
+                "solo de 4 m veintiseis de octubre",
+                "solo de 4m veintiseis de octubre",
+                "igual a 4 m veintiseis de octubre",
+                "igual a 4m veintiseis de octubre",
+                "= 4m veintiseis de octubre",
+                "= 4 m veintiseis de octubre",
+                "cuatro metros veintiseis de octubre",
+                "cuatro m veintiseis de octubre",
+                "igual a cuatro m veintiseis de octubre",
+                "4 metros veintiseisdeoctubre",
+                "4 m veintiseisdeoctubre",
+                "4m veintiseisdeoctubre",
+                "solo de 4 metros veintiseisdeoctubre",
+                "solo de 4 m veintiseisdeoctubre",
+                "solo de 4m veintiseisdeoctubre",
+                "igual a 4 m veintiseisdeoctubre",
+                "igual a 4m veintiseisdeoctubre",
+                "= 4m veintiseisdeoctubre",
+                "= 4 m veintiseisdeoctubre",
+                "cuatro metros veintiseisdeoctubre",
+                "cuatro m veintiseisdeoctubre",
+                "igual a cuatro m veintiseisdeoctubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo4MYDistritoTambogrande",
+            "patrones": [
+                "4 metros tambogrande",
+                "4 m tambogrande",
+                "4m tambogrande",
+                "solo de 4 metros tambogrande",
+                "solo de 4 m tambogrande",
+                "solo de 4m tambogrande",
+                "igual a 4 m tambogrande",
+                "igual a 4m tambogrande",
+                "= 4m tambogrande",
+                "= 4 m tambogrande",
+                "cuatro metros tambogrande",
+                "cuatro m tambogrande",
+                "igual a cuatro m tambogrande",
+                "4 metros tambo grande",
+                "4 m tambo grande",
+                "4m tambo grande",
+                "solo de 4 metros tambo grande",
+                "solo de 4 m tambo grande",
+                "solo de 4m tambo grande",
+                "igual a 4 m tambo grande",
+                "igual a 4m tambo grande",
+                "= 4m tambo grande",
+                "= 4 m tambo grande",
+                "cuatro metros tambo grande",
+                "cuatro m tambo grande",
+                "igual a cuatro m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo4MYDistritoPiura",
+            "patrones": [
+                "4 metros piura",
+                "4 m piura",
+                "4m piura",
+                "solo de 4 metros piura",
+                "solo de 4 m piura",
+                "solo de 4m piura",
+                "igual a 4 m piura",
+                "igual a 4m piura",
+                "= 4m piura",
+                "= 4 m piura",
+                "cuatro metros piura",
+                "cuatro m piura",
+                "igual a cuatro m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "4.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo5MYDistritoCastilla",
+            "patrones": [
+                "5 metros castilla",
+                "5 m castilla",
+                "5m castilla",
+                "solo de 5 metros castilla",
+                "solo de 5 m castilla",
+                "solo de 5m castilla",
+                "igual a 5 m castilla",
+                "igual a 5m castilla",
+                "= 5m castilla",
+                "= 5 m castilla",
+                "cinco metros castilla",
+                "cinco m castilla",
+                "igual a cinco m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo5MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "5 metros veintiseis de octubre",
+                "5 m veintiseis de octubre",
+                "5m veintiseis de octubre",
+                "solo de 5 metros veintiseis de octubre",
+                "solo de 5 m veintiseis de octubre",
+                "solo de 5m veintiseis de octubre",
+                "igual a 5 m veintiseis de octubre",
+                "igual a 5m veintiseis de octubre",
+                "= 5m veintiseis de octubre",
+                "= 5 m veintiseis de octubre",
+                "cinco metros veintiseis de octubre",
+                "cinco m veintiseis de octubre",
+                "igual a cinco m veintiseis de octubre",
+                "5 metros veintiseisdeoctubre",
+                "5 m veintiseisdeoctubre",
+                "5m veintiseisdeoctubre",
+                "solo de 5 metros veintiseisdeoctubre",
+                "solo de 5 m veintiseisdeoctubre",
+                "solo de 5m veintiseisdeoctubre",
+                "igual a 5 m veintiseisdeoctubre",
+                "igual a 5m veintiseisdeoctubre",
+                "= 5m veintiseisdeoctubre",
+                "= 5 m veintiseisdeoctubre",
+                "cinco metros veintiseisdeoctubre",
+                "cinco m veintiseisdeoctubre",
+                "igual a cinco m veintiseisdeoctubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo5MYDistritoTambogrande",
+            "patrones": [
+                "5 metros tambogrande",
+                "5 m tambogrande",
+                "5m tambogrande",
+                "solo de 5 metros tambogrande",
+                "solo de 5 m tambogrande",
+                "solo de 5m tambogrande",
+                "igual a 5 m tambogrande",
+                "igual a 5m tambogrande",
+                "= 5m tambogrande",
+                "= 5 m tambogrande",
+                "cinco metros tambogrande",
+                "cinco m tambogrande",
+                "igual a cinco m tambogrande",
+                "5 metros tambo grande",
+                "5 m tambo grande",
+                "5m tambo grande",
+                "solo de 5 metros tambo grande",
+                "solo de 5 m tambo grande",
+                "solo de 5m tambo grande",
+                "igual a 5 m tambo grande",
+                "igual a 5m tambo grande",
+                "= 5m tambo grande",
+                "= 5 m tambo grande",
+                "cinco metros tambo grande",
+                "cinco m tambo grande",
+                "igual a cinco m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo5MYDistritoPiura",
+            "patrones": [
+                "5 metros piura",
+                "5 m piura",
+                "5m piura",
+                "solo de 5 metros piura",
+                "solo de 5 m piura",
+                "solo de 5m piura",
+                "igual a 5 m piura",
+                "igual a 5m piura",
+                "= 5m piura",
+                "= 5 m piura",
+                "cinco metros piura",
+                "cinco m piura",
+                "igual a cinco m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo6MYDistritoCastilla",
+            "patrones": [
+                "6 metros castilla",
+                "6 m castilla",
+                "6m castilla",
+                "solo de 6 metros castilla",
+                "solo de 6 m castilla",
+                "solo de 6m castilla",
+                "igual a 6 m castilla",
+                "igual a 6m castilla",
+                "= 6m castilla",
+                "= 6 m castilla",
+                "seis metros castilla",
+                "seis m castilla",
+                "igual a seis m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "5.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo6MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "6 metros veintiseis de octubre",
+                "6 m veintiseis de octubre",
+                "6m veintiseis de octubre",
+                "solo de 6 metros veintiseis de octubre",
+                "solo de 6 m veintiseis de octubre",
+                "solo de 6m veintiseis de octubre",
+                "igual a 6 m veintiseis de octubre",
+                "igual a 6m veintiseis de octubre",
+                "= 6m veintiseis de octubre",
+                "= 6 m veintiseis de octubre",
+                "seis metros veintiseis de octubre",
+                "seis m veintiseis de octubre",
+                "igual a seis m veintiseis de octubre",
+                "6 metros veintiseisdeoctubre",
+                "6 m veintiseisdeoctubre",
+                "6m veintiseisdeoctubre",
+                "solo de 6 metros veintiseisdeoctubre",
+                "solo de 6 m veintiseisdeoctubre",
+                "solo de 6m veintiseisdeoctubre",
+                "igual a 6 m veintiseisdeoctubre",
+                "igual a 6m veintiseisdeoctubre",
+                "= 6m veintiseisdeoctubre",
+                "= 6 m veintiseisdeoctubre",
+                "seis metros veintiseisdeoctubre",
+                "seis m veintiseisdeoctubre",
+                "igual a seis m veintiseisdeoctubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo6MYDistritoTambogrande",
+            "patrones": [
+                "6 metros tambogrande",
+                "6 m tambogrande",
+                "6m tambogrande",
+                "solo de 6 metros tambogrande",
+                "solo de 6 m tambogrande",
+                "solo de 6m tambogrande",
+                "igual a 6 m tambogrande",
+                "igual a 6m tambogrande",
+                "= 6m tambogrande",
+                "= 6 m tambogrande",
+                "seis metros tambogrande",
+                "seis m tambogrande",
+                "igual a seis m tambogrande",
+                "6 metros tambo grande",
+                "6 m tambo grande",
+                "6m tambo grande",
+                "solo de 6 metros tambo grande",
+                "solo de 6 m tambo grande",
+                "solo de 6m tambo grande",
+                "igual a 6 m tambo grande",
+                "igual a 6m tambo grande",
+                "= 6m tambo grande",
+                "= 6 m tambo grande",
+                "seis metros tambo grande",
+                "seis m tambo grande",
+                "igual a seis m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo6MYDistritoPiura",
+            "patrones": [
+                "6 metros piura",
+                "6 m piura",
+                "6m piura",
+                "solo de 6 metros piura",
+                "solo de 6 m piura",
+                "solo de 6m piura",
+                "igual a 6 m piura",
+                "igual a 6m piura",
+                "= 6m piura",
+                "= 6 m piura",
+                "seis metros piura",
+                "seis m piura",
+                "igual a seis m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "6.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo7MYDistritoCastilla",
+            "patrones": [
+                "7 metros castilla",
+                "7 m castilla",
+                "7m castilla",
+                "solo de 7 metros castilla",
+                "solo de 7 m castilla",
+                "solo de 7m castilla",
+                "igual a 7 m castilla",
+                "igual a 7m castilla",
+                "= 7m castilla",
+                "= 7 m castilla",
+                "siete metros castilla",
+                "siete m castilla",
+                "igual a siete m castilla"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo7MYDistritoVeintiseisDeOctubre",
+            "patrones": [
+                "7 metros veintiseis de octubre",
+                "7 m veintiseis de octubre",
+                "7m veintiseis de octubre",
+                "solo de 7 metros veintiseis de octubre",
+                "solo de 7 m veintiseis de octubre",
+                "solo de 7m veintiseis de octubre",
+                "igual a 7 m veintiseis de octubre",
+                "igual a 7m veintiseis de octubre",
+                "= 7m veintiseis de octubre",
+                "= 7 m veintiseis de octubre",
+                "siete metros veintiseis de octubre",
+                "siete m veintiseis de octubre",
+                "igual a siete m veintiseis de octubre",
+                "7 metros veintiseisdeoctubre",
+                "7 m veintiseisdeoctubre",
+                "7m veintiseisdeoctubre",
+                "solo de 7 metros veintiseisdeoctubre",
+                "solo de 7 m veintiseisdeoctubre",
+                "solo de 7m veintiseisdeoctubre",
+                "igual a 7 m veintiseisdeoctubre",
+                "igual a 7m veintiseisdeoctubre",
+                "= 7m veintiseisdeoctubre",
+                "= 7 m veintiseisdeoctubre",
+                "siete metros veintiseisdeoctubre",
+                "siete m veintiseisdeoctubre",
+                "igual a siete m veintiseisdeoctubre"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Veintiseis de Octubre",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo7MYDistritoTambogrande",
+            "patrones": [
+                "7 metros tambogrande",
+                "7 m tambogrande",
+                "7m tambogrande",
+                "solo de 7 metros tambogrande",
+                "solo de 7 m tambogrande",
+                "solo de 7m tambogrande",
+                "igual a 7 m tambogrande",
+                "igual a 7m tambogrande",
+                "= 7m tambogrande",
+                "= 7 m tambogrande",
+                "siete metros tambogrande",
+                "siete m tambogrande",
+                "igual a siete m tambogrande",
+                "7 metros tambo grande",
+                "7 m tambo grande",
+                "7m tambo grande",
+                "solo de 7 metros tambo grande",
+                "solo de 7 m tambo grande",
+                "solo de 7m tambo grande",
+                "igual a 7 m tambo grande",
+                "igual a 7m tambo grande",
+                "= 7m tambo grande",
+                "= 7 m tambo grande",
+                "siete metros tambo grande",
+                "siete m tambo grande",
+                "igual a siete m tambo grande"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorModulo7MYDistritoPiura",
+            "patrones": [
+                "7 metros piura",
+                "7 m piura",
+                "7m piura",
+                "solo de 7 metros piura",
+                "solo de 7 m piura",
+                "solo de 7m piura",
+                "igual a 7 m piura",
+                "igual a 7m piura",
+                "= 7m piura",
+                "= 7 m piura",
+                "siete metros piura",
+                "siete m piura",
+                "igual a siete m piura"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        },
+                        "modulo": {
+                            "Value": "7.0 m",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorBeneficiario",
+            "patrones": [
+                "del beneficiario llamado",
+                "de la beneficiaria llamada",
+                "de la persona llamado",
+                "de la persona llamada",
+                "del señor llamado",
+                "del señora llamada",
+                "de la señora con nombre",
+                "del beneficiario con nombre",
+                "de la beneficiaria con nombre",
+                "del señor con nombre",
+                "del señora con nombre",
+                "de la señora con nombre",
+                "del beneficiario",
+                "del señora",
+                "de la señora",
+                "del señor",
+                "del receptor",
+                "de la receptora",
+                "del ",
+                "de la "
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "beneficiario": {
+                            "Value": "",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorBeneficiariotambogrande",
+            "patrones": [
+                "tambogrande del beneficiario llamado",
+                "tambogrande de la beneficiaria llamada",
+                "tambogrande de la persona llamado",
+                "tambogrande de la persona llamada",
+                "tambogrande del señor llamado",
+                "tambogrande del señora llamada",
+                "tambogrande de la señora con nombre",
+                "tambogrande del beneficiario con nombre",
+                "tambogrande de la beneficiaria con nombre",
+                "tambogrande del señor con nombre",
+                "tambogrande del señora con nombre",
+                "tambogrande de la señora con nombre",
+                "tambogrande del beneficiario",
+                "tambogrande del señora",
+                "tambogrande de la señora",
+                "tambogrande del señor",
+                "tambogrande del receptor",
+                "tambogrande de la receptora",
+                "tambogrande del ",
+                "tambogrande de la ",
+                "tambo grande del beneficiario llamado",
+                "tambo grande de la beneficiaria llamada",
+                "tambo grande de la persona llamado",
+                "tambo grande de la persona llamada",
+                "tambo grande del señor llamado",
+                "tambo grande del señora llamada",
+                "tambo grande de la señora con nombre",
+                "tambo grande del beneficiario con nombre",
+                "tambo grande de la beneficiaria con nombre",
+                "tambo grande del señor con nombre",
+                "tambo grande del señora con nombre",
+                "tambo grande de la señora con nombre",
+                "tambo grande del beneficiario",
+                "tambo grande del señora",
+                "tambo grande de la señora",
+                "tambo grande del señor",
+                "tambo grande del receptor",
+                "tambo grande de la receptora",
+                "tambo grande del ",
+                "tambo grande de la "
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "beneficiario": {
+                            "Value": "",
+                            "Operator": "="
+                        },
+                        "distrito": {
+                            "Value": "Tambogrande",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorBeneficiarioPiura",
+            "patrones": [
+                "piura del beneficiario llamado",
+                "piura de la beneficiaria llamada",
+                "piura de la persona llamado",
+                "piura de la persona llamada",
+                "piura del señor llamado",
+                "piura del señora llamada",
+                "piura de la señora con nombre",
+                "piura del beneficiario con nombre",
+                "piura de la beneficiaria con nombre",
+                "piura del señor con nombre",
+                "piura del señora con nombre",
+                "piura de la señora con nombre",
+                "piura del beneficiario",
+                "piura del señora",
+                "piura de la señora",
+                "piura del señor",
+                "piura del receptor",
+                "piura de la receptora",
+                "piura del ",
+                "piura de la "
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "beneficiario": {
+                            "Value": "",
+                            "Operator": "="
+                        },
+                        "distrito": {
+                            "Value": "Piura",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorBeneficiarioVeintiseis",
+            "patrones": [
+                "veintiseis de octubre del beneficiario llamado",
+                "veintiseis de octubre de la beneficiaria llamada",
+                "veintiseis de octubre de la persona llamado",
+                "veintiseis de octubre de la persona llamada",
+                "veintiseis de octubre del señor llamado",
+                "veintiseis de octubre del señora llamada",
+                "veintiseis de octubre de la señora con nombre",
+                "veintiseis de octubre del beneficiario con nombre",
+                "veintiseis de octubre de la beneficiaria con nombre",
+                "veintiseis de octubre del señor con nombre",
+                "veintiseis de octubre del señora con nombre",
+                "veintiseis de octubre de la señora con nombre",
+                "veintiseis de octubre del beneficiario",
+                "veintiseis de octubre del señora",
+                "veintiseis de octubre de la señora",
+                "veintiseis de octubre del señor",
+                "veintiseis de octubre del receptor",
+                "veintiseis de octubre de la receptora",
+                "veintiseis de octubre del ",
+                "veintiseis de octubre de la ",
+                "veintiseisdeoctubre del beneficiario llamado",
+                "veintiseisdeoctubre de la beneficiaria llamada",
+                "veintiseisdeoctubre de la persona llamado",
+                "veintiseisdeoctubre de la persona llamada",
+                "veintiseisdeoctubre del señor llamado",
+                "veintiseisdeoctubre del señora llamada",
+                "veintiseisdeoctubre de la señora con nombre",
+                "veintiseisdeoctubre del beneficiario con nombre",
+                "veintiseisdeoctubre de la beneficiaria con nombre",
+                "veintiseisdeoctubre del señor con nombre",
+                "veintiseisdeoctubre del señora con nombre",
+                "veintiseisdeoctubre de la señora con nombre",
+                "veintiseisdeoctubre del beneficiario",
+                "veintiseisdeoctubre del señora",
+                "veintiseisdeoctubre de la señora",
+                "veintiseisdeoctubre del señor",
+                "veintiseisdeoctubre del receptor",
+                "veintiseisdeoctubre de la receptora",
+                "veintiseisdeoctubre del ",
+                "veintiseisdeoctubre de la "
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "beneficiario": {
+                            "Value": "",
+                            "Operator": "="
+                        },
+                        "distrito": {
+                            "Value": "Veintiseis de octubre",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarPorBeneficiarioCastilla",
+            "patrones": [
+                "castilla del beneficiario llamado",
+                "castilla de la beneficiaria llamada",
+                "castilla de la persona llamado",
+                "castilla de la persona llamada",
+                "castilla del señor llamado",
+                "castilla del señora llamada",
+                "castilla de la señora con nombre",
+                "castilla del beneficiario con nombre",
+                "castilla de la beneficiaria con nombre",
+                "castilla del señor con nombre",
+                "castilla del señora con nombre",
+                "castilla de la señora con nombre",
+                "castilla del beneficiario",
+                "castilla del señora",
+                "castilla de la señora",
+                "castilla del señor",
+                "castilla del receptor",
+                "castilla de la receptora",
+                "castilla del ",
+                "castilla de la "
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos",
+                    "campos": {
+                        "beneficiario": {
+                            "Value": "",
+                            "Operator": "="
+                        },
+                        "distrito": {
+                            "Value": "Castilla",
+                            "Operator": "="
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "BuscarTodosUsuarios",
+            "patrones": [
+                "Todos los usuarios",
+                "usuarios",
+                "trabajadores",
+                "colaboradores"
+            ],
+            "respuestas": [
+                {
+                    "collection": "users"
+                }
+            ]
+        },
+        {
+            "tag": "BuscarTodosProyectos",
+            "patrones": [
+                "Todos los proyectos",
+                "Todos los modulos",
+                "proyectos",
+                "proyecto",
+                "modulos",
+                "modulo"
+            ],
+            "respuestas": [
+                {
+                    "collection": "proyectos"
+                }
+            ]
+        }
+    ]
+}
